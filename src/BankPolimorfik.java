@@ -1,5 +1,8 @@
 public class BankPolimorfik {
     public static void main(String[] args) {
+        // Error saat new Rekening("999", "Eko", 0):
+        // java: Rekening is abstract; cannot be instantiated
+
         Tabungan ani = new Tabungan("101", "Ani", 1000000, 2.5);
         Tabungan citra = new Tabungan("102", "Citra", 300000, 2.0);
         Giro budi = new Giro("201", "Budi", 200000, 500000);
